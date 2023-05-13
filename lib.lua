@@ -243,7 +243,7 @@ function resourcecrops.add_crop(seed_translate, essence_translate, resource_name
 		paramtype = "light",
 		walkable = false,
 		drawtype = "plantlike",
-		tiles = {"resource_crops_"..resource_name.."_crop.png"},
+		tiles = {"resource_crops_crop_4.png^resource_crops_"..resource_name.."_essence_up.png"},
 	    selection_box = {
 			type = "fixed",
 			fixed = {
